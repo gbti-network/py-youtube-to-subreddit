@@ -1,0 +1,15 @@
+{
+  "youtube_api_key": "YOUR_YOUTUBE_API_KEY",
+  "reddit": {
+    "client_id": "YOUR_REDDIT_CLIENT_ID",
+    "client_secret": "YOUR_REDDIT_CLIENT_SECRET",
+    "username": "YOUR_REDDIT_USERNAME",
+    "password": "YOUR_REDDIT_PASSWORD"
+  },
+  "debug_mode": true,
+  "comment_template" : "This comment is is sourced from the video description:\r\n\r\n\"{youtube.description}\"",
+  "comment_removal" : [
+    "Remove some string A",
+    "Remove some string B"
+  ]
+}

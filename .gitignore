@@ -1,0 +1,7 @@
+.idea/.gitignore
+config.json
+.idea/
+snapshots/captures/snapshot-01-14-2024-15_54_56-.md
+snapshots/captures/
+snapshots/py/__pycache__/
+debug.log
