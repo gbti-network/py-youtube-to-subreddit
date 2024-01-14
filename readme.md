@@ -1,6 +1,6 @@
-# YouTube to Reddit Video Poster
+# Py YouTube to Reddit
 
-We developed this script to accept either a Youtube channel or a playlist to import their videos into a sub reddit.
+We developed this python script to accept either a Youtube channel or a YouTube playlist to import their videos into a sub reddit.
 
 ## Setup
 
@@ -70,8 +70,14 @@ The script will also ask you if you would like to post the video description as 
 
 ### Features
 
+* Process videos one at a time
 * Can skip videos
 * Can sort by date asc, date desc, view count, and likes
 * Comment is powered by template in config.json
 * Checks the subreddit to make sure that the post does not already exist
 
+## Follow GBTI for more
+
+Thanks for reading! If you like our content, please consider following us!
+
+[Twitter/X](https://twitter.com/gbtilabs) | [GitHub](https://github.com/gbti-labs) | [YouTube](https://www.youtube.com/channel/UCh4FjB6r4oWQW-QFiwqv-UA) | [Dev.to](https://dev.to/gbti) | [Daily.dev](https://dly.to/zfCriM6JfRF) | [Hashnode](https://gbti.hashnode.dev/) | [Blog / Discord](https://gbti.io)
