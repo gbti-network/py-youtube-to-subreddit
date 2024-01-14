@@ -73,6 +73,7 @@ The script will also ask you if you would like to post the video description as 
 * Process videos one at a time
 * Can skip videos
 * Can sort by date asc, date desc, view count, and likes
+* Comments are optional
 * Comment is powered by template in config.json
 * Checks the subreddit to make sure that the post does not already exist
 
