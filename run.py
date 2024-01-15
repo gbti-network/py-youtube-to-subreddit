@@ -229,10 +229,10 @@ def main():
     subreddit_name = input("Enter the subreddit name to post videos: ")
     source_url = input("Enter YouTube channel or playlist URL: ")
 
-    channel_id, _ = parse_youtube_url(source_url)
+    channel_id, playlist_id = parse_youtube_url(source_url)
 
-    if not channel_id:
-        print("Invalid YouTube channel ID.")
+    if not channel_id and not playlist_id:
+        print("Invalid YouTube channel or playlist URL.")
         return
 
     max_results = input("Enter the maximum number of videos to pull (default is 100): ")
@@ -259,7 +259,7 @@ def main():
         print("Invalid sorting direction. Using default 'desc' sorting direction.")
         direction = 'desc'
 
-    videos = get_youtube_videos(youtube, channel_id=channel_id, playlist_id=None, max_results=max_results, order=order, direction=direction)
+    videos = get_youtube_videos(youtube, channel_id=channel_id, playlist_id=playlist_id, max_results=max_results, order=order, direction=direction)
 
     if not videos:
         print("No videos found.")
