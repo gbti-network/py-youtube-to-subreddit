@@ -2,6 +2,8 @@
 
 We developed this python script to accept either a Youtube channel or a YouTube playlist to import their videos into a sub reddit.
 
+![Youtube-to-subreddit](https://github.com/gbti-labs/py-youtube-to-subreddit/assets/125175036/846e7d43-924d-4c7c-ab5b-58135e803276)
+
 ## Setup
 
 ### YouTube API Key
