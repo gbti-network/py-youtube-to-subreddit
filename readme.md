@@ -2,8 +2,6 @@
 
 We developed this python script to accept either a Youtube channel or a YouTube playlist to import their videos into a subreddit.
 
-![Youtube-to-subreddit](https://github.com/gbti-labs/py-youtube-to-subreddit/assets/125175036/846e7d43-924d-4c7c-ab5b-58135e803276)
-
 ## Setup
 
 ### YouTube API Key
@@ -69,6 +67,8 @@ And follow the prompts as they will ask which subreddit to publish to, which cha
 Once you've setup your import condition the script will itterate through each video and confirm that you would like to publish the video or skip it. 
 
 The script will also ask you if you would like to post the video description as the first comment. 
+
+![Youtube-to-subreddit](https://github.com/gbti-labs/py-youtube-to-subreddit/assets/125175036/846e7d43-924d-4c7c-ab5b-58135e803276)
 
 ### Features
 
